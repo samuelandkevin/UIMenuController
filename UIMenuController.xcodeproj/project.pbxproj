@@ -13,6 +13,12 @@
 		AC9169E71D543A0500B37B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9169E51D543A0500B37B55 /* Main.storyboard */; };
 		AC9169E91D543A0500B37B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9169E81D543A0500B37B55 /* Assets.xcassets */; };
 		AC9169EC1D543A0500B37B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9169EA1D543A0500B37B55 /* LaunchScreen.storyboard */; };
+		AC916A031D546DE200B37B55 /* default_head_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC916A021D546DE200B37B55 /* default_head_icon.png */; };
+		AC916A111D546FE900B37B55 /* DemoViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A071D546FE900B37B55 /* DemoViewController2.m */; };
+		AC916A121D546FE900B37B55 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A0A1D546FE900B37B55 /* DemoModel.m */; };
+		AC916A131D546FE900B37B55 /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A0D1D546FE900B37B55 /* DemoCell.m */; };
+		AC916A141D546FE900B37B55 /* DemoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC916A0E1D546FE900B37B55 /* DemoCell.xib */; };
+		AC916A151D546FE900B37B55 /* HKPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AC916A101D546FE900B37B55 /* HKPLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,16 @@
 		AC9169E81D543A0500B37B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9169EB1D543A0500B37B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9169ED1D543A0500B37B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC916A021D546DE200B37B55 /* default_head_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_head_icon.png; sourceTree = "<group>"; };
+		AC916A061D546FE900B37B55 /* DemoViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController2.h; sourceTree = "<group>"; };
+		AC916A071D546FE900B37B55 /* DemoViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController2.m; sourceTree = "<group>"; };
+		AC916A091D546FE900B37B55 /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		AC916A0A1D546FE900B37B55 /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+		AC916A0C1D546FE900B37B55 /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		AC916A0D1D546FE900B37B55 /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		AC916A0E1D546FE900B37B55 /* DemoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCell.xib; sourceTree = "<group>"; };
+		AC916A0F1D546FE900B37B55 /* HKPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKPLabel.h; sourceTree = "<group>"; };
+		AC916A101D546FE900B37B55 /* HKPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKPLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +78,10 @@
 				AC9169E01D543A0500B37B55 /* AppDelegate.m */,
 				AC9169E21D543A0500B37B55 /* ViewController.h */,
 				AC9169E31D543A0500B37B55 /* ViewController.m */,
-				AC9169E51D543A0500B37B55 /* Main.storyboard */,
+				AC916A041D546FE900B37B55 /* Demo2 */,
+				AC916A011D546DE200B37B55 /* resource */,
 				AC9169E81D543A0500B37B55 /* Assets.xcassets */,
+				AC9169E51D543A0500B37B55 /* Main.storyboard */,
 				AC9169EA1D543A0500B37B55 /* LaunchScreen.storyboard */,
 				AC9169ED1D543A0500B37B55 /* Info.plist */,
 				AC9169DC1D543A0500B37B55 /* Supporting Files */,
@@ -77,6 +95,54 @@
 				AC9169DD1D543A0500B37B55 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC916A011D546DE200B37B55 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AC916A021D546DE200B37B55 /* default_head_icon.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		AC916A041D546FE900B37B55 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC916A051D546FE900B37B55 /* Controller */,
+				AC916A081D546FE900B37B55 /* Model */,
+				AC916A0B1D546FE900B37B55 /* View */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		AC916A051D546FE900B37B55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC916A061D546FE900B37B55 /* DemoViewController2.h */,
+				AC916A071D546FE900B37B55 /* DemoViewController2.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC916A081D546FE900B37B55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC916A091D546FE900B37B55 /* DemoModel.h */,
+				AC916A0A1D546FE900B37B55 /* DemoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC916A0B1D546FE900B37B55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC916A0C1D546FE900B37B55 /* DemoCell.h */,
+				AC916A0D1D546FE900B37B55 /* DemoCell.m */,
+				AC916A0E1D546FE900B37B55 /* DemoCell.xib */,
+				AC916A0F1D546FE900B37B55 /* HKPLabel.h */,
+				AC916A101D546FE900B37B55 /* HKPLabel.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +202,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC916A141D546FE900B37B55 /* DemoCell.xib in Resources */,
 				AC9169EC1D543A0500B37B55 /* LaunchScreen.storyboard in Resources */,
 				AC9169E91D543A0500B37B55 /* Assets.xcassets in Resources */,
+				AC916A031D546DE200B37B55 /* default_head_icon.png in Resources */,
 				AC9169E71D543A0500B37B55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9169E41D543A0500B37B55 /* ViewController.m in Sources */,
+				AC916A151D546FE900B37B55 /* HKPLabel.m in Sources */,
 				AC9169E11D543A0500B37B55 /* AppDelegate.m in Sources */,
+				AC916A111D546FE900B37B55 /* DemoViewController2.m in Sources */,
+				AC916A121D546FE900B37B55 /* DemoModel.m in Sources */,
+				AC916A131D546FE900B37B55 /* DemoCell.m in Sources */,
 				AC9169DE1D543A0500B37B55 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +374,7 @@
 				AC9169F21D543A0500B37B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
